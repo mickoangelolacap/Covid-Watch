@@ -5,15 +5,16 @@
 $host = 'localhost'; //determines the host to use
 $username = 'root'; //username for the host
 $password = ''; //password for the host
-$db = 'covid-watch'; //database to be used
+$db = 'covidwatch'; //database to be used
 
 
-// $host = 'remotemysql.com'; //determines the host to use
-// $username = 'root'; //username for the host
-// $password = ''; //password for the host
-// $db = 'covid-watch'; //database to be used
+// $host = 'db4free.net'; //determines the host to use
+// $username = 'mickoangelolacap'; //username for the host
+// $password = '85452565macl'; //password for the host
+// $db = 'covidwatch'; //database to be used
 
 // remotemysql.com/phpmyadmin
+// db4free.net/phpmyadmin
 
 // open a connection to the MySQL server
 // mysqli_connect(host, user, password, database)

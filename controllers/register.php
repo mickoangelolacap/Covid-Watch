@@ -12,16 +12,20 @@
 
 	if ($firstname != "" && $lastname != "") {
 		echo "Welcome " . $firstname . " " . $lastname;
+		echo "<br>";
 	}
 	else {
 		echo "please provide a complete name";
+		echo "<br>";
 	}
 
 	if ($email != "") {
 		echo "your email is: " . $email;
+		echo "<br>";
 	}
 	else {
 		echo "please provide a valid email";
+		echo "<br>";
 	}
 
 	if ($password != "" && $cpassword != ""){
@@ -33,13 +37,13 @@
 		
 			$insert_query = "INSERT INTO users(firstname, lastname, age, email, username, password, role_id) VALUES ('$firstname', '$lastname', '$age', '$email', '$username', '$password', $role_id)";
 
-			var_dump($insert_query);
+			// var_dump($insert_query);
 
 			$result = mysqli_query($conn, $insert_query);
 
 			if ($result) {
-				echo "registered successfully";
-				// header('Location: ../views/login.php');
+				// echo "registered successfully";
+				header('Location: ../views/landing.php');
 			}
 			else {
 				echo mysqli_error($conn);
@@ -48,9 +52,13 @@
 		}
 		else {
 			echo "passwords do not match";
+			echo "<br>";
 		}
 	}
 	else {
 		echo "please check password fields";
+		echo "<br>";
 	}
  ?>
+
+ <a href="../views/landing.php"> GO BACK </a>

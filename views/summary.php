@@ -106,11 +106,11 @@ function getTitle() {
 
 	<div class="faq pt-5">
 
-		<h1 class="p-3">Frequently Asked Questions</h1>
+		<h1 class="p-3 text-danger">Frequently Asked Questions</h1>
 
 		<div class="accordion pb-5" id="accordionExample">
-		  <div class="card bg-light">
-		    <div class="card-header bg-danger" id="headingOne">
+		  <div class="card bg-light rounded">
+		    <div class="card-header bg-dark rounded" id="headingOne">
 		      <h2 class="mb-0">
 		        <button class="btn btn-link text-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 		          What is a Coronavirus?
@@ -124,8 +124,8 @@ function getTitle() {
 		      </div>
 		    </div>
 		  </div>
-		  <div class="card bg-light">
-		    <div class="card-header bg-danger" id="headingTwo">
+		  <div class="card bg-light rounded">
+		    <div class="card-header bg-dark rounded" id="headingTwo">
 		      <h2 class="mb-0">
 		        <button class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 		          What are the symptoms of COVID-19?
@@ -138,8 +138,8 @@ function getTitle() {
 		      </div>
 		    </div>
 		  </div>
-		  <div class="card bg-light">
-		    <div class="card-header bg-danger" id="headingThree">
+		  <div class="card bg-light rounded">
+		    <div class="card-header bg-dark rounded" id="headingThree">
 		      <h2 class="mb-0">
 		        <button class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 		          What can I do to protect myself?
