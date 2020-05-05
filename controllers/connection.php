@@ -2,16 +2,20 @@
 
 // mysql -u root
 
-$host = 'localhost'; //determines the host to use
-$username = 'root'; //username for the host
-$password = ''; //password for the host
-$db = 'covidwatch'; //database to be used
-
+// $host = 'localhost'; //determines the host to use
+// $username = 'root'; //username for the host
+// $password = ''; //password for the host
+// $db = 'covidwatch'; //database to be used
 
 // $host = 'db4free.net'; //determines the host to use
 // $username = 'mickoangelolacap'; //username for the host
 // $password = '85452565macl'; //password for the host
 // $db = 'covidwatch'; //database to be used
+
+$host = 'remotemysql.com'; //determines the host to use
+$username = 'ciJtooxQ05'; //username for the host
+$password = '7CgRktuOcN'; //password for the host
+$db = 'ciJtooxQ05'; //database to be used
 
 // remotemysql.com/phpmyadmin
 // db4free.net/phpmyadmin

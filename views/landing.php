@@ -191,7 +191,13 @@ function getTitle() {
 </div>
 <!-- end container fluid -->
 
-<script src="../assets/js/landing.js"></script>
+
+
+<!-- sweet alert 2 -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script> -->
+
+<!-- external js -->
+<!-- <script src="../assets/js/landing.js"></script> -->
 
 <?php 
 require '../partials/footer.php';

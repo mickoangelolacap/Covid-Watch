@@ -7,9 +7,9 @@
 
 
 	if ($symp == 'male') {
-		$symp = true;
+		$symp = 1;
 	} else {
-		$symp = false;
+		$symp = 0;
 	}
 
 	$userid_query = "SELECT * FROM answers WHERE user_id = '$userid' && question_id = 3";

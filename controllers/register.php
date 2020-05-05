@@ -8,7 +8,7 @@
 	$username = htmlspecialchars($_POST['username']);
 	$password = htmlspecialchars($_POST['password']);
 	$cpassword = htmlspecialchars($_POST['cpassword']);
-	$role_id = 1;
+	$role_id = 2;
 
 	if ($firstname != "" && $lastname != "") {
 		echo "Welcome " . $firstname . " " . $lastname;
@@ -46,7 +46,8 @@
 				header('Location: ../views/landing.php');
 			}
 			else {
-				echo mysqli_error($conn);
+				// echo mysqli_error($conn);
+				echo "Username or Email is already used, Please try a different one.";
 			}
 
 		}

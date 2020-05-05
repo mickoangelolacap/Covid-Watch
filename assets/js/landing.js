@@ -18,6 +18,28 @@ console.log('asd')
 }
 validation();
 
+// const Toast = Swal.mixin({
+//   toast : true,
+//   position : 'top-end',
+//   showConfirmButton : false,
+//   timer : 3000
+// })
+
+// $error = $_SESSION['error'];
+
+// if($errors > 0) {
+//     Toast.fire({
+//       type : 'error',
+//       title : 'Something went wrong!'
+//     })  
+//   }
+//   else {
+//     Toast.fire({
+//       type : 'success',
+//       title : 'Registered successfully!'
+//     })
+//   }
+
 
 // login validation
 // const Toast = Swal.mixin({

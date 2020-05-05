@@ -6,9 +6,9 @@
 	$userid = $_SESSION['user']['id'];
 
 	if ($check == 'on') {
-		$check = true;
+		$check = 1;
 	} else {
-		$check = false;
+		$check = 0;
 	}
 
 	$userid_query = "SELECT * FROM answers WHERE user_id = '$userid' && question_id = 2";

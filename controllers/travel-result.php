@@ -6,9 +6,9 @@
 	$userid = $_SESSION['user']['id'];
 
 	if ($trav == 'male') {
-		$trav = true;
+		$trav = 1;
 	} else {
-		$trav = false;
+		$trav = 0;
 	}
 
 
