@@ -48,11 +48,11 @@ function getTitle() {
 					  <div class="form-row">
 					    <div class="col-md-6 mb-3">
 					      <label for="fname">First name</label>
-					      <input name="firstname" type="text" class="form-control shadow-sm" id="fname" placeholder="Micko Angelo" required>
+					      <input name="firstname" type="text" class="form-control shadow-sm" id="fname" placeholder="John" required>
 					    </div>
 					    <div class="col-md-6 mb-3">
 					      <label for="lname">Last name</label>
-					      <input name="lastname" type="text" class="form-control shadow-sm" id="lname" placeholder="Lacap"required>
+					      <input name="lastname" type="text" class="form-control shadow-sm" id="lname" placeholder="Doe"required>
 					    </div>
 					  </div>
 					  <!-- end 1st row -->
@@ -66,7 +66,7 @@ function getTitle() {
 					    </div>
 					    <div class="col-md-4 mb-3">
 					      <label for="age">Age</label>
-					      <input name="age" type="number" class="form-control shadow-sm" id="age" placeholder="18" required>
+					      <input name="age" type="number" class="form-control shadow-sm" id="age" placeholder="Age" required>
 					    </div>
 					  </div>
 					  <!-- end 2nd row -->
